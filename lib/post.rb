@@ -2,4 +2,4 @@ class Post
   attr_accessor :title, :author
 end
 
-Post.author = Author.new
+Post.new.author = Author.new
